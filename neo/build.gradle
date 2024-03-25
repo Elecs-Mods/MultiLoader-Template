@@ -1,0 +1,34 @@
+modloader {
+
+// The following values are default values
+///////////////////////////////////////////
+//
+//    Tells the run(Client/Server/Whatever) what SourceSet to use
+//    runtimeSource = sourceSets.main
+//
+//    Adds the common project as a dependency of the main SourceSet, including it's sources (and resources) in the compile process
+//    addCommonDependency = true
+//
+//    Adds the mixins defined in the common project to this project as well
+//    addCommonMixins = true
+//
+//    Adds the common project as a dependency, including it's sources (and resources) in the compile process for ALL SourceSets
+//    Only has an effect if `addCommonDependency` is set to true
+//    addCommonSourceToAll = false
+//
+//    Anything you can define in the common project can be defined here as well (like adding mixins & changing mod descriptor settings), and setting a value already set in the common project will override it for this project
+//
+// Neo-specific settings
+///////////////////////////////////////////
+//
+//    Sets the logging markers for all run configurations
+//    loggingMarkers = "CORE,LOADING,SCAN,SPLASH"
+//
+//    Sets the console level for all run configurations
+//    consoleLevel = "debug"
+//
+//    Adds a data-generator run configuration
+//    addDataGenerator = true
+//
+
+}
