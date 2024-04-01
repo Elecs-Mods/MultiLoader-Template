@@ -17,6 +17,10 @@ modloader {
 //    Tells the run(Client/Server/Whatever) what SourceSet to use
 //    runtimeSource = sourceSets.main
 //
+//    Tells file generation tasks (mixin JSONs, mod descriptors ect) which SourceSet to target.
+//    Files generated will not be included in any resources if set to null
+//    mainModSource = sourceSets.main
+//
 //    Adds the common project as a dependency of the main SourceSet, including it's sources (and resources) in the compile process
 //    addCommonDependency = true
 //
